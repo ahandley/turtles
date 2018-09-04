@@ -8,7 +8,7 @@ import Drawings
 
 # When you add a function to Drawings, add a description here.
 descriptions = ["Star drawing",     # 0
-                "Square wave"]      # 1
+                "Rainbow Spiral"]   # 1
 
 # Main menu:
 while True:
@@ -46,6 +46,6 @@ while True:
     if (d == 0):
         Drawings.star()
     elif (d == 1):
-        Drawings.square()
+        Drawings.rainbow_spiral()
 
     # When we're done with the drawing, just loop around to the menu.
